@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
+import { HashRouter, Route, Routes, NavLink } from "react-router-dom";
 import All from "./All";
 import Active from "./Active";
 import Completed from "./Completed";
@@ -33,30 +33,30 @@ const TodoList = () => {
   return (
     <main>
       <h1 className="title">#todo</h1>
-      <BrowserRouter>
+      <HashRouter>
         <nav className="links">
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : null)}
-            to="/toDo-react/all"
+            to="/"
           >
             All
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : null)}
-            to="/toDo-react/active"
+            to="/active"
           >
             Active
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : null)}
-            to="/toDo-react/completed"
+            to="/completed"
           >
             Completed
           </NavLink>
         </nav>
         <Routes>
           <Route
-            path="https://faustoleal.github.io/toDo-react/"
+            path="/"
             element={
               <All
                 createItemForm={createItemForm}
@@ -86,7 +86,7 @@ const TodoList = () => {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </main>
   );
 };
