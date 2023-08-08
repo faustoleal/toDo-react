@@ -56,7 +56,7 @@ const TodoList = () => {
         </nav>
         <Routes>
           <Route
-            path="/"
+            path="https://faustoleal.github.io/toDo-react/"
             element={
               <All
                 createItemForm={createItemForm}
