@@ -37,19 +37,19 @@ const TodoList = () => {
         <nav className="links">
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : null)}
-            to="https://faustoleal.github.io/toDo-react/"
+            to="/toDo-react/all"
           >
             All
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : null)}
-            to="/active"
+            to="/toDo-react/active"
           >
             Active
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : null)}
-            to="/completed"
+            to="/toDo-react/completed"
           >
             Completed
           </NavLink>
