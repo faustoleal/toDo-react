@@ -14,10 +14,10 @@ Herramientas
 
 Version de Escritorio
 
-![Escritorio](/my-todo/img/toDo-desktop.png)
+![Escritorio](img/toDo-desktop.png)
 
 Version Mobile
 
-![Mobile](/my-todo/img/toDo-mobile.png)
+![Mobile](img/toDo-mobile.png)
 
 [Ver pagina](https://faustoleal.github.io/toDo-react/)
