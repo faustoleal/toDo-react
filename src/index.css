@@ -6,7 +6,6 @@
 
 body,
 html {
-  max-width: 1440px;
   font-size: 15px;
   word-spacing: normal;
   height: 100%;
@@ -49,7 +48,6 @@ main {
   width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid #a7a5a5;
-  color: #141414;
 }
 
 a {
@@ -58,6 +56,7 @@ a {
   font-weight: bold;
   cursor: default;
   text-decoration: none;
+  color: #141414;
 }
 
 a:visited {

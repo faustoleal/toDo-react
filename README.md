@@ -1,23 +1,51 @@
 # ToDo
 
-#### Desafio de devChallenges
+Proyecto _React + Vite_ basada en un desafío de [https://devchallenges.io/](https://devchallenges.io/) que consiste en realizar un app web de una lista de tareas.
 
-Herramientas
+![Escritorio](img/toDo-desktop.png)
+
+#### Tecnologías y herramientas utilizadas
 
 - HTML
 - CSS
-- Javascript
 - React.js
 - react-router-dom
 - MaterialUI
 - Vite.js
 
-Version de Escritorio
+#### Componentes
 
-![Escritorio](img/toDo-desktop.png)
+| Componente | Funcionalidad/Contenido                                        |
+| ---------- | -------------------------------------------------------------- |
+| Active     | Vista donde se listan las tareas activas                       |
+| All        | Vista donde se listan todas las tareas                         |
+| Completed  | Vista donde se listan solo las tareas completadas              |
+| Footer     | Pie de página                                                  |
+| Form       | Input de tipo form donde se escriben las tareas                |
+| Item       | Todas la tareas que tengan un input checkbox                   |
+| Item       | Las tareas que completas que tenga un icono de tacho de basura |
+| TodoList   | Donde se encuentra el Router de react-router                   |
 
-Version Mobile
+#### Instalación
 
-![Mobile](img/toDo-mobile.png)
+Clonar reposirorio:
 
-[Ver pagina](https://faustoleal.github.io/toDo-react/)
+```bash
+git clone https://github.com/faustoleal/toDo-react
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Correr proyecto de forma local:
+
+```bash
+git clone https://github.com/faustoleal/toDo-react
+```
+
+### Más información
+
+Puedes econtrar el proyecto desplegado [aquí](https://faustoleal.github.io/toDo-react/)
